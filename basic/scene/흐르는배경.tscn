@@ -5,8 +5,11 @@
 [node name="흐르는배경" type="Parallax2D"]
 
 [node name="Parallax2D" type="Parallax2D" parent="."]
+repeat_size = Vector2(0, 512)
+autoscroll = Vector2(0, 200)
 
 [node name="Sprite2D" type="Sprite2D" parent="Parallax2D"]
+texture_repeat = 2
 scale = Vector2(2, 2)
 texture = ExtResource("1_yweqt")
 centered = false
