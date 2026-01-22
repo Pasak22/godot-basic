@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://m7c78rxkygd6"]
+
+[ext_resource type="Script" uid="uid://b3d6de6omxkk8" path="res://재밌는 스크립.gd" id="1_euhuf"]
+
+[node name="재밌는씬" type="Node2D"]
+script = ExtResource("1_euhuf")
