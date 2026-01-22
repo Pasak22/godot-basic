@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dkkr4ykk7fyo"]
+
+[ext_resource type="PackedScene" uid="uid://cmtc2tjxaem5w" path="res://scene/흐르는배경.tscn" id="1_2tg7u"]
+
+[node name="게임" type="Node2D"]
+
+[node name="흐르는배경" parent="." instance=ExtResource("1_2tg7u")]
